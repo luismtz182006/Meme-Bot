@@ -1,0 +1,19 @@
+{
+  "name": "meme-bot-discord",
+  "version": "1.0.0",
+  "description": "Bot de Discord con IA, memes y personalidades",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "node-fetch": "^3.3.2",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "type": "module"
+}
